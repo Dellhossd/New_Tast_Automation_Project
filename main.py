@@ -21,16 +21,14 @@ import time
 driver = webdriver.Firefox()
 time.sleep(5)
 driver.maximize_window()
+time.sleep(5)
 driver.get("https://google.com")
-# fetch webpage title from browser
-google_title = driver.title
-print(google_title)
 # verify title is correct
+title = driver.title
 try:
-   assert "Google3" in driver.title
+    assert "Google2" in driver.title
 except AssertionError:
-    print(str(AssertionError) + "title is in correct")
+    print(str(AssertionError) + "If the title is incorrect")
 time.sleep(5)
 driver.close()
-print("Test is Complete")
-
+print("Test will be complete")
