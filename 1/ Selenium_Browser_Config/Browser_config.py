@@ -2,9 +2,9 @@ from selenium import webdriver
 
 import time
 
-browser = webdriver.Firefox()
-browser.maximize_window()
+driver = webdriver.Firefox()
+driver.maximize_window()
 time.sleep(10)
-browser.get("https://google.com")
+driver.get("https://google.com")
 time.sleep(10)
-browser.close()
+driver.close()

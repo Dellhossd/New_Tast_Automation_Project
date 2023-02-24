@@ -14,3 +14,23 @@ if __name__ == '__main__':
     print_hi('PyCharm')
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
+from selenium import webdriver
+
+import time
+
+driver = webdriver.Firefox()
+time.sleep(5)
+driver.maximize_window()
+driver.get("https://google.com")
+# fetch webpage title from browser
+google_title = driver.title
+print(google_title)
+# verify title is correct
+try:
+   assert "Google3" in driver.title
+except AssertionError:
+    print(str(AssertionError) + "title is in correct")
+time.sleep(5)
+driver.close()
+print("Test is Complete")
+
