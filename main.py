@@ -1,34 +1,20 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
 from selenium import webdriver
 
 import time
+from  selenium.webdriver.common.by import By
 
 driver = webdriver.Firefox()
-time.sleep(5)
 driver.maximize_window()
-time.sleep(5)
-driver.get("https://google.com")
-# verify title is correct
-title = driver.title
-try:
-    assert "Google2" in driver.title
-except AssertionError:
-    print(str(AssertionError) + "If the title is incorrect")
-time.sleep(5)
+time.sleep(3)
+driver.get("https://www.walmart.com/account/login")
+email_ID = driver.find_element(By.NAME,"Email Address")
+if email_ID is None:
+     print("Login ID")
+else:
+     print("Email add show incorrect")
+driver.find_element(By.CSS_SELECTOR,"#sign-in-form > button")
+
+
+time.sleep(3)
 driver.close()
-print("Test will be complete")
+

@@ -12,9 +12,10 @@ print(google_title)
 # verify title is correct
 
 try:
-     assert "Google2" in driver.title
+     assert "https://www.google.com2" in driver.current_url
+     print("Assertion passed. URL correct")
 except AssertionError:
-    print(str(AssertionError) + "title is incorrect!!!")
+    print(str(AssertionError) + "URL is incorrect!!!")
 
 time.sleep(10)
 driver.close()

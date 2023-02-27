@@ -189,3 +189,17 @@ DevTools listening on ws://127.0.0.1:61945/devtools/browser/65a48289-469c-4cbe-9
 Dynamically enable window occlusion 1
 !!! error running onStopped callback: TypeError: callback is not a function
 [Parent 14104, IPC I/O Parent] WARNING: pipe error: 232: file /builds/worker/checkouts/gecko/ipc/chromium/src/chrome/common/ipc_channel_win.cc:583
+1677343633563	geckodriver	INFO	Listening on 127.0.0.1:51352
+1677343636623	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51353" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileSZmbzf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677343637088	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677343637096	Marionette	INFO	Listening on port 51360
+Read port: 51360
+WebDriver BiDi listening on ws://127.0.0.1:51353
+1677343637289	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileSZmbzf\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51353/devtools/browser/86673835-15d9-44ac-bd0f-c05c045b9471
+1677343661469	Marionette	INFO	Stopped listening on port 51360
+Dynamically enable window occlusion 1
