@@ -15,3 +15,93 @@ DevTools listening on ws://127.0.0.1:51304/devtools/browser/6b013e86-76b8-4158-a
 Dynamically enable window occlusion 1
 !!! error running onStopped callback: TypeError: callback is not a function
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1677814016906	geckodriver	INFO	Listening on 127.0.0.1:62290
+1677814019974	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62291" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileSKhATd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677814020485	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677814020494	Marionette	INFO	Listening on port 62300
+Read port: 62300
+WebDriver BiDi listening on ws://127.0.0.1:62291
+1677814020702	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileSKhATd\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62291/devtools/browser/9eb1208d-fea4-4998-b431-2d4af043e2c8
+1677814027052	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677814030680	Marionette	INFO	Stopped listening on port 62300
+Dynamically enable window occlusion 1
+1677814070510	geckodriver	INFO	Listening on 127.0.0.1:62367
+1677814073568	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62368" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile9GUEqh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677814074051	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677814074062	Marionette	INFO	Listening on port 62376
+Read port: 62376
+WebDriver BiDi listening on ws://127.0.0.1:62368
+1677814074257	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile9GUEqh\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62368/devtools/browser/96a3963c-de2d-4af3-913a-39979bfe594a
+1677814080168	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677814083561	Marionette	INFO	Stopped listening on port 62376
+Dynamically enable window occlusion 1
+1677814140678	geckodriver	INFO	Listening on 127.0.0.1:62447
+1677814143741	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62448" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileezURuT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677814144211	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677814144220	Marionette	INFO	Listening on port 62457
+Read port: 62457
+WebDriver BiDi listening on ws://127.0.0.1:62448
+1677814144427	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileezURuT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62448/devtools/browser/5d85db0d-bd79-4cb1-aa65-f2367217074f
+1677814150308	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677814154635	Marionette	INFO	Stopped listening on port 62457
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+1677814284600	geckodriver	INFO	Listening on 127.0.0.1:62560
+1677814287662	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62561" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileVWqnZT"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677814288229	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677814288237	Marionette	INFO	Listening on port 62570
+Read port: 62570
+WebDriver BiDi listening on ws://127.0.0.1:62561
+1677814288492	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileVWqnZT\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62561/devtools/browser/45dbadcf-6099-431d-9f7d-a1abefca225d
+1677814294774	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1677814298243	Marionette	INFO	Stopped listening on port 62570
+Dynamically enable window occlusion 1
+!!! error running onStopped callback: TypeError: callback is not a function
+1677814382435	geckodriver	INFO	Listening on 127.0.0.1:62652
+1677814385487	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62653" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileCrYnMZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677814385953	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677814385962	Marionette	INFO	Listening on port 62661
+Read port: 62661
+WebDriver BiDi listening on ws://127.0.0.1:62653
+1677814386160	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileCrYnMZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62653/devtools/browser/6e1e33b9-2ba4-428e-81f5-dc72d0ad56bb
+1677814409294	Marionette	INFO	Stopped listening on port 62661
+Dynamically enable window occlusion 1
+1677814433621	geckodriver	INFO	Listening on 127.0.0.1:62758
+1677814436687	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62759" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilexICYmx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1677814437160	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1677814437166	Marionette	INFO	Listening on port 62768
+WebDriver BiDi listening on ws://127.0.0.1:62759
+Read port: 62768
+1677814437554	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofilexICYmx\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:62759/devtools/browser/5c82deb0-02fc-489b-8cf6-a2075a9a62f6
+1677814464542	Marionette	INFO	Stopped listening on port 62768
+Dynamically enable window occlusion 1

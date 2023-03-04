@@ -17,6 +17,8 @@ time.sleep(3)
 username_field=driver.find_element(By.NAME,"username")
 if username_field is not None:
     print("Dell")
+else:
+    print("this username should be incorrect")
 
 
 
@@ -37,4 +39,3 @@ if Id_filed is not None:
   print("Finally Test will be completed")
 
 driver.close()
-

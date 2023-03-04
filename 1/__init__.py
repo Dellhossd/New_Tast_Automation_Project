@@ -1,13 +1,12 @@
 from selenium import webdriver
 
 import time
-
 driver = webdriver.Firefox()
 driver.maximize_window()
 time.sleep(3)
-driver.get("https://goolel.com")
+driver.get("https://google.com")
 time.sleep(3)
-driver.get("https://apple.com")
+driver.get("https://Apple.com")
 time.sleep(3)
 driver.back()
 print(driver.title)
@@ -17,4 +16,5 @@ print(driver.title)
 time.sleep(3)
 driver.refresh()
 print(driver.title)
+time.sleep(3)
 driver.close()
