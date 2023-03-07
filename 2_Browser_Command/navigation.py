@@ -1,6 +1,12 @@
 from selenium import webdriver
 
 import time
+import time
+import time
+
+from selenium import webdriver
+
+
 
 driver = webdriver.Firefox()
 driver.maximize_window()
