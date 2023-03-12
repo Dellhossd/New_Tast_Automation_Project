@@ -49,9 +49,9 @@ def Handel_Alert():
     Prompt_Alert =WebDriverWait(driver,10).until(EC.alert_is_present())
     try:
         assert Prompt_Alert.text == "I am a JS prompt"
-        Prompt_Alert.send_keys('dddd')
-        print("Test 3) Passed:Prompt Alert is Open")
 
+        print("Test 3) Passed:Prompt Alert is Open")
+        Prompt_Alert.send_keys('dddd')
     except AssertionError:
         print("Test 3) Failed :Prompt Alert is not Open")
     Prompt_Alert.accept()

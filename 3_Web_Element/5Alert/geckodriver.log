@@ -1970,3 +1970,75 @@ webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173
 1678227372723	Marionette	INFO	Stopped listening on port 60377
 Dynamically enable window occlusion 1
 !!! error running onStopped callback: TypeError: callback is not a function
+1678227790587	geckodriver	INFO	Listening on 127.0.0.1:60527
+1678227793633	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60528" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile0rLjxw"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678227794333	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678227794342	Marionette	INFO	Listening on port 60535
+Read port: 60535
+WebDriver BiDi listening on ws://127.0.0.1:60528
+1678227794568	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofile0rLjxw\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60528/devtools/browser/a39fc997-09eb-42a0-a203-93ceb4b4c315
+1678227799038	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1678227802301	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1678227805439	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1678227815097	Marionette	INFO	Stopped listening on port 60535
+Dynamically enable window occlusion 1
+1678228520887	geckodriver	INFO	Listening on 127.0.0.1:60695
+1678228523959	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60696" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileDAl9iK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678228524416	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678228524425	Marionette	INFO	Listening on port 60704
+Read port: 60704
+WebDriver BiDi listening on ws://127.0.0.1:60696
+1678228524633	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileDAl9iK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:60696/devtools/browser/38091c92-f0f3-498f-bb81-998b839e64c8
+1678228535429	Marionette	INFO	Stopped listening on port 60704
+Dynamically enable window occlusion 1
+1678240728848	geckodriver	INFO	Listening on 127.0.0.1:52584
+1678240731937	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52585" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileXJzwnA"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1678240732834	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1678240732843	Marionette	INFO	Listening on port 52592
+Read port: 52592
+WebDriver BiDi listening on ws://127.0.0.1:52585
+1678240733116	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileXJzwnA\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52585/devtools/browser/b6a27b13-ae54-43ee-9e75-561ba6ef32e2
+1678240738235	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1678240741464	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1678240744556	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1678240754238	Marionette	INFO	Stopped listening on port 52592
+Dynamically enable window occlusion 1
